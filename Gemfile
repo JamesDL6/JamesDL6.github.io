@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.1"
-gem "jekyll-theme-chirpy"
+
 
 gem 'nokogiri'
 gem 'rack', '~> 2.0.1'
@@ -29,3 +29,5 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+
+gem "jekyll-theme-chirpy"
