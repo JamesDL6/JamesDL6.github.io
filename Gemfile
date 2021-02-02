@@ -1,6 +1,11 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.1"
+gem "jekyll-theme-chirpy"
+
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
 
 # plugins
 group :jekyll_plugins do
